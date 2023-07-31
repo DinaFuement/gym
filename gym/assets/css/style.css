@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ #banner-img{
+ 
+ color: white;
+ padding: 20px 10px 100px 10px;
+ position: relative;
+ text-align: center;
+}
+#banner-img h3{
+    font-size: 14px;
+}
+.img img{
+    position: absolute;
+    width: 100%;
+}
+
+.span-tags{
+    color: rgb(249, 56, 56);
+}
+.btn{
+    background-color: rgb(249, 56, 56);
+    color: white;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    margin-top: 20px;
+}
+
+@media(min-width:768px) {
+ 
+    #banner-img{
+        text-align: center; 
+        padding-top: 160px;
+       }   
+    #banner-img h3{
+        padding-bottom:5px ;
+        padding-top: 50px;
+       }  
+    #banner-img h1{
+        font-size: 3rem;
+    } 
+    .btn{
+        padding: 15px 40px 15px 40px;
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1200px) {
+    #banner-img h3{
+        padding-top: 20px;
+        font-size: 20px;
+       }  
+       #banner-img{
+        /* padding-bottom: -50px; */
+        height: 70vh;
+       }
+    #banner-img h1{
+        font-size: 6rem;
+        margin-top: 25px;
+    } 
+}
+
+
+
+.choose-program{
+ text-align: center;
+ padding: 4rem 10px 1rem 10px;
+
+}
+.layout-content img{
+    padding:1rem 0px 1rem 0px;
+}
+.paragrap{
+    padding:10px 0px 10px 0px;
+}
+.paragrap{
+    color: gray;
+}
+.logo{
+    padding: 10px 0px 10px 0px;
+}
+
+
+@media(min-width:481px) {
+    .logo{
+        display: flex;
+    }
+    .logo-content{
+        text-align: left;
+        margin-left: 30px;
+    }
+}
+@media(min-width:768px) {
+ .call{
+    display: flex;
+    padding: 30px 20px 30px 20px;
+ }
+
+}
+
+@media(min-width:1200px) {
+    .choose-program{
+        padding: 10rem 5rem 1rem 5rem;
+       }
+    .layout-content {
+        padding:10rem 20rem 1rem 20rem;
+    }
+}
+
+
+
+
+#begin-img{
+    background-image: url(../image/cta-bg.jpg);
+    padding: 50px 10px 50px 10px;
+    color: white;
+    text-align: center;
+}
+@media (min-width:768px) {
+    #begin-img p{
+        padding: 15px 0px 15px 0px;
+       
+    }
+}
+/* @media (min-width:1200px) {
+
+    
+} */
+
+
+.layout-content{
+    margin: -50;
+}
+.our-class{
+    text-align: center;
+    padding: 4rem 10px 1rem 10px;
+}
+.class-btn{
+    display: flex;
+    border: none;
+    box-shadow:0px 0px 2px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.traning-img{
+    padding:10px 5px 10px 20px ;
+    
+}
+.traning{
+    padding:15px 100px 10px 20px ;
+    font-size: 20px;
+   font-weight: bold;
+}
+
+.view-btn{
+    background-color: rgb(249, 56, 56);
+    color: white;
+    border: none;
+    /* padding: 20px 85px 20px 85px; */
+    /* font-size: 12px; */
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 12px;
+}
+.dina{
+    background-color: rgb(249, 56, 56);
+    color: white;
+    border: none;
+    /* padding: 20px 85px 20px 85px; */
+    font-size: 12px;
+    margin-top: 20px;
+    /* margin: 0px 30px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin: 5px 110px 5px 0px; */
+    /* margin: 5px 184px 5px 0px; */
+}
+.fuement{
+    padding:30px 0px 30px 0px ;
+}
+
+
+@media(min-width:641px) {
+    .training-class{
+        display: flex; 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+ 
+
+    .traning{
+        padding:15px 20px 10px 20px ;
+        font-size: 20px;
+       font-weight: bold;
+    }
+    .view-btn{
+        padding: 20px 85px 20px 85px;
+        font-size: 12px;
+    }
+    .dina{
+        padding: 20px 85px 20px 85px;
+    }
+    .fit2{
+        margin: 0px;
+    }
+
+    .traning-class-1{
+        padding-top: 10px;
+        width: 40%;
+    }
+    .fuement{
+        margin-left: 30px;
+        width: 60%;
+    }
+ 
+}
+@media(min-width:1200px) {
+     
+    .training-class{
+        display: flex; 
+        margin-left: 50px;
+        margin-right: 10px;
+        padding:1rem 15rem 1rem 10rem;
+    }
+    .fuement{
+        margin-left: 100px;
+    }
+    .view-btn{
+        /* font-size: 13px; */
+        padding: 20px 100px 20px 100px;
+    }
+.dina{
+    /* font-size: 20px; */
+    padding: 20px 100px 20px 100px;
+    margin: 5px 184px 5px 0px;
+}
+}
+
+footer{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+
